@@ -1,0 +1,15 @@
+[
+  {
+    "namaKaryawan": "Haikal Ikhwan K",
+    "noHp": "085954590525",
+    "emailKaryawan": "ikal.ikhwan@gmail.com",
+    "role": "gudang",
+    "password": "watugong6",
+    "alamat": {
+      "jalan": "Watugong no 6",
+      "kecamatan": "Lowokwaru",
+      "kota": "Malang",
+      "provinsi": "Jawa Timur"
+    }
+  }
+]

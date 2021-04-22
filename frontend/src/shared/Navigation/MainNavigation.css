@@ -1,0 +1,30 @@
+.main-navigation {
+  background-color: #0130a4;
+  color: white;
+  margin: 0;
+  box-sizing: border-box;
+  position: sticky;
+  overflow-y: scroll;
+  width: 30%;
+  height: 100vh;
+  max-width: 270px;
+  top: 0;
+  left: 0;
+}
+
+.main-navigation__brand {
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 24px;
+  margin: 0;
+}
+
+.extender {
+  height: 80px;
+}
+
+@media (max-width: 768px) {
+  .main-navigation {
+    display: none;
+  }
+}

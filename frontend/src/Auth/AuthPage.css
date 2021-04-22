@@ -1,0 +1,32 @@
+.auth-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  box-sizing: border-box;
+}
+
+.auth__form {
+  box-shadow: 2px 3px 3px 3px #ccc;
+  overflow: hidden;
+  width: 30%;
+  height: 30%;
+  min-height: 250px;
+  background: white;
+}
+
+.auth-form__header {
+  background-color: #0130a4;
+  padding: 1rem;
+}
+
+.auth-form__header h2 {
+  margin: 0;
+  font-size: 24px;
+  font-family: Montserrat;
+  color: white;
+}
+
+.auth-form__content {
+  padding: 1rem;
+}

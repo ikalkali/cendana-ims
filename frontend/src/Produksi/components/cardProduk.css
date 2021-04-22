@@ -1,0 +1,56 @@
+.card-kecil {
+  margin-bottom: 20px;
+  box-shadow: 3px 6px 16px 0px rgba(0, 0, 0, 0.22);
+}
+
+.list-produk {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.list-produk__nama-produk-container h3 {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0;
+  color: #afafaf;
+}
+
+.list-produk__nama-produk-container h2 {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.detail-produk {
+  display: flex;
+  justify-content: space-between;
+}
+
+.detail-produk__material,
+.detail-produk__instock {
+  width: 50%;
+  margin: 10px;
+}
+
+.detail-produk__material h2,
+.detail-produk__instock h2 {
+  font-family: Roboto;
+  font-size: 16px;
+  color: #0130a4;
+  margin: 0;
+  margin-left: 15px;
+}
+
+.detail-produk__title h2 {
+  font-size: 36px;
+  margin: 0 !important;
+  margin-left: 15px;
+}
+
+.detail-produk__title h3 {
+  font-size: 16px;
+  margin: 0;
+  margin-left: 8px;
+}

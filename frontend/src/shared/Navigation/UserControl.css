@@ -1,0 +1,51 @@
+.user-control {
+  position: absolute;
+  bottom: 30px;
+  width: 100%;
+}
+
+.user-control__title {
+  font-family: "Lato";
+  font-weight: 700;
+  font-size: 12px;
+  margin-left: 15px;
+  margin-bottom: 5px;
+}
+
+.user-control__container {
+  display: flex;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  flex-direction: row;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #052a85;
+  margin: auto;
+  width: 90%;
+}
+
+.user-control__detail {
+  display: flex;
+  align-items: center;
+}
+
+.user-control__nama h3,
+.user-control__nama p {
+  margin: 0;
+  font-size: 13px;
+  font-family: Montserrat;
+  margin-left: 10px;
+}
+
+.user-control__button-container {
+  flex: 1;
+}
+
+@media (max-height: 768px) {
+  .user-control {
+    position: sticky;
+    margin-top: 300px;
+  }
+}

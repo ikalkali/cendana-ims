@@ -1,0 +1,41 @@
+hr {
+  width: 80%;
+  border: 1px solid black;
+  opacity: 20%;
+}
+
+ul {
+  list-style: none;
+}
+
+ul h4 {
+  font-family: "Lato";
+  font-weight: 700;
+  font-size: 12px;
+}
+
+ul li {
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+}
+
+li i {
+  margin-right: 5px;
+}
+
+ul li:last-child {
+  margin-bottom: 20px;
+}
+
+ul a {
+  font-family: "Lato";
+  font-weight: 200;
+  text-decoration: none;
+  color: white;
+}
+
+.active {
+  font-weight: 700;
+  color: #66fe7a;
+}

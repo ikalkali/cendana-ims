@@ -1,0 +1,9 @@
+/* .form-request {
+  display: flex;
+  flex-direction: column;
+} */
+
+.form-request__col {
+  align-items: center;
+  display: flex;
+}

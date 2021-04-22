@@ -1,0 +1,8 @@
+.card-kecil {
+  width: 90%;
+  border-radius: 10px;
+  background-color: white;
+  overflow: hidden;
+  box-shadow: 0px 0px 0px 0px #ccc;
+  margin-bottom: 2rem;
+}
